@@ -1,7 +1,23 @@
 
 # Inventor_Files_Dependency
-[Demo](https://myshare.autodesk.com/:v:/g/personal/yuqin_shen_autodesk_com/Eeg9nQzeLBpLtbB3u0SmzuEBXbAJvv02vg2kZC5f5DKp0Q?e=ph6jbS)   
-This project explores efficient ways to visualize Inventor files dependency. The files include `.iam`, `.idw`,`.ipn`, more features will be considered in the future.
+## Introduction
+This project explores efficient ways to visualize Inventor files dependency. The files include `.iam`, `.idw`,`.ipn`, more features will be considered in the future.   
+
+[Demo](https://myshare.autodesk.com/:v:/g/personal/yuqin_shen_autodesk_com/Eeg9nQzeLBpLtbB3u0SmzuEBXbAJvv02vg2kZC5f5DKp0Q?e=ph6jbS) could be be downloadd by click it or you could download directly from the repository. 
+ More information about this project please reach out to [Will Secor](will.secor@autodesk.com), `RefResolver` source code please reach out to [Yuming Zeng](yuming.zeng@autodesk.com).  
+### `Notice`   
+`Examples` folder contains `Embeded_data` folder, which includes .html that could be directly open in your web browser because raw data has been embeded as variables, and `parse_local_data` folder, which includes .html parses data from your local files and for security, you could only access the data via your local server. Follow the steps: 
+- Installed a server globally: 
+```
+ npm install http-server -g
+ ```
+ - Navigate to your html files directory, run the script`http-server`, Now you can visit `http://localhost:8080/` to view your server.
+ For example, `http://localhost:8080/index.html`.   
+    
+- **With limited time, all code need to be refined, especially for graphs.**    
+`force_direct graph` is hard to select the node as labels are floating above it.      
+`tree graph` is difficult to visualize the structure if the nodes label are too long.      
+
 ## Get Started
 ### 1. Inventor environment set up:
 Run the script on Command Prompt
@@ -56,7 +72,8 @@ To get more details, please refer to `VIEW_DEPENDENCY`, `ID_VIEW_GRAPH`, `ID_VIE
 ### Graph   
 We currently investigated potentials of force_directed graph and tree graph. Both graphs are based on d3 library https://d3js.org/.
 - Force_directed Graph   
-Which shows the connection between unique items. The source code refers to [force_directed graph](https://bl.ocks.org/mbostock/4062045/5916d145c8c048a6e3086915a6be464467391c62).
+Which shows the connection between unique items. The source code refers to [force_directed graph](https://bl.ocks.org/mbostock/4062045/5916d145c8c048a6e3086915a6be464467391c62)   
+
 - Tree Graph     
 Which shows the tree structure of targets. The source code refers to [tree graph](http://bl.ocks.org/d3noob/8375092).
 ### Client   
