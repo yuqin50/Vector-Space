@@ -4,6 +4,7 @@
 This project explores efficient ways to visualize Inventor files dependency. The files include `.iam`, `.idw`,`.ipn`, more features will be considered in the future.   
 
 [Demo](https://myshare.autodesk.com/:v:/g/personal/yuqin_shen_autodesk_com/Eeg9nQzeLBpLtbB3u0SmzuEBXbAJvv02vg2kZC5f5DKp0Q?e=ph6jbS) could be be downloadd by click it or you could download directly from the repository. `Final Intern Showcase` please click read only, and it takes some time to load the data, please be patient.   
+   
  More information about this project please reach out to Will Secor will.secor@autodesk.com, `RefResolver` source code please reach out to Yuming Zeng yuming.zeng@autodesk.com.  
 ### `Notice`  
 - local server   
