@@ -14,7 +14,7 @@ This project explores efficient ways to visualize Inventor files dependency. The
  More about [http-server](https://www.npmjs.com/package/http-server).     
     
 - **With limited time, all code need to be refined, especially for graphs.**    
-`force_direct graph` is hard to select the node as labels are floating above it.      
+`force_direct graph` is hard to select nodes as labels are floating above it.      
 `tree graph` is difficult to visualize the structure if the nodes label are too long.      
 
 ## Get Started
