@@ -8,10 +8,7 @@ This project explores efficient ways to visualize Inventor files dependency. The
 ### `Notice`  
 - local server   
 `Examples` folder has `Embeded_data` folder, which contains .html that could be directly open in your web browser because raw data has been embeded as variables, and `parse_local_data` folder, which contains .html parses data from your local files and for security, you could only access the data via your local server. Follow the steps: 
-1. Installed a server globally: 
-```
- npm install http-server -g
- ```
+1. Installed a server globally: `npm install http-server -g`
 2. Navigate to your html files directory, run the script`http-server`, Now you can visit `http://localhost:8080/` to view your server.
  For example, `http://localhost:8080/index.html`.    
  More about [http-server](https://www.npmjs.com/package/http-server).     
