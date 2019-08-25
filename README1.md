@@ -4,9 +4,9 @@
 This project explores efficient ways to visualize Inventor files dependency. The files include `.iam`, `.idw`,`.ipn`, more features will be considered in the future.   
 
 [Demo](https://myshare.autodesk.com/:v:/g/personal/yuqin_shen_autodesk_com/Eeg9nQzeLBpLtbB3u0SmzuEBXbAJvv02vg2kZC5f5DKp0Q?e=ph6jbS) could be be downloadd by click it or you could download directly from the repository. 
- More information about this project please reach out to [Will Secor](will.secor@autodesk.com), `RefResolver` source code please reach out to [Yuming Zeng](yuming.zeng@autodesk.com).  
+ More information about this project please reach out to Will Secor will.secor@autodesk.com, `RefResolver` source code please reach out to Yuming Zeng yuming.zeng@autodesk.com.  
 ### `Notice`   
-`Examples` folder contains `Embeded_data` folder, which includes .html that could be directly open in your web browser because raw data has been embeded as variables, and `parse_local_data` folder, which includes .html parses data from your local files and for security, you could only access the data via your local server. Follow the steps: 
+`Examples` folder has `Embeded_data` folder, which contains .html that could be directly open in your web browser because raw data has been embeded as variables, and `parse_local_data` folder, which contains .html parses data from your local files and for security, you could only access the data via your local server. Follow the steps: 
 - Installed a server globally: 
 ```
  npm install http-server -g
@@ -77,7 +77,9 @@ Which shows the connection between unique items. The source code refers to [forc
 - Tree Graph     
 Which shows the tree structure of targets. The source code refers to [tree graph](http://bl.ocks.org/d3noob/8375092).
 ### Client   
-This function shows clients which use current items in order to help users understand influence on stakeholders when they change the design.
+This function shows clients which use current items in order to help users understand influence on stakeholders when they change the design. This part needs more work, as I only show am image of the client structure as an example. Options:
+1. Refer to Bill of Materials   
+2. Refer to contrains reference   
 ## RefResolver
 This application takes the full path of our target file as input, and generated `_force.txt`, `_tree.txt`, `_.csv` files. RefResolver parses the information from Inventor and writes in these files which will be used to generate .html files. 
 
