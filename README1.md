@@ -5,14 +5,16 @@ This project explores efficient ways to visualize Inventor files dependency. The
 
 [Demo](https://myshare.autodesk.com/:v:/g/personal/yuqin_shen_autodesk_com/Eeg9nQzeLBpLtbB3u0SmzuEBXbAJvv02vg2kZC5f5DKp0Q?e=ph6jbS) could be be downloadd by click it or you could download directly from the repository. 
  More information about this project please reach out to Will Secor will.secor@autodesk.com, `RefResolver` source code please reach out to Yuming Zeng yuming.zeng@autodesk.com.  
-### `Notice`   
+### `Notice`  
+- local server   
 `Examples` folder has `Embeded_data` folder, which contains .html that could be directly open in your web browser because raw data has been embeded as variables, and `parse_local_data` folder, which contains .html parses data from your local files and for security, you could only access the data via your local server. Follow the steps: 
-- Installed a server globally: 
+1. Installed a server globally: 
 ```
  npm install http-server -g
  ```
- - Navigate to your html files directory, run the script`http-server`, Now you can visit `http://localhost:8080/` to view your server.
- For example, `http://localhost:8080/index.html`. More about [http-server](https://www.npmjs.com/package/http-server).     
+2. Navigate to your html files directory, run the script`http-server`, Now you can visit `http://localhost:8080/` to view your server.
+ For example, `http://localhost:8080/index.html`.    
+ More about [http-server](https://www.npmjs.com/package/http-server).     
     
 - **With limited time, all code need to be refined, especially for graphs.**    
 `force_direct graph` is hard to select the node as labels are floating above it.      
